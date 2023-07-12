@@ -10,8 +10,9 @@ function App() {
   function handleClick(){
     setStart(!start);    
   }
+  let beat=new Audio('public/FM9B3TC-alarm.mp3')
   useEffect(()=>{
-    let beat=new Audio('public/FM9B3TC-alarm.mp3')
+    
     let id;
     if(start)
     {
